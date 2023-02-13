@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  width: 1440px;
+}
+.nav{
+    margin: auto;
+    padding:16px 85px;
+    width:1440px ;
+    display:flex ;
+    color:rgb(36, 35, 35) ;
+    align-items:center;
+    justify-content: space-between;
+}
+.firstBlock{
+  padding:16px 135px;
+  width:1440px ;
+}
+.secondBlock{
+  padding:40px 135px;
+  width:1440px ;
+}
+.logo{
+  font-family:"DM Serif Display";
+}
+.noham{
+  display: block;
+  display: flex;
+  align-items: center;
+
+}
+.ham{
+  display: none;
+}
+/* featureBanner */
+.featureBanner{
+  background-color:#434CCC;
+  width: 100%;
+  display: block;
+  margin: auto;
+  color:white;
+}
+.heading{
+  font-family:"DM Serif Display"
+}
+.pos{
+  display: block;
+  margin: auto;
+}
+.text{
+  font-family:"DM Sans";
+}
+.gird{
+  display: grid;
+  gap:20px;
+  padding:20px;
+  grid-template-columns: repeat(3,1fr);
+}
+
+
+
+@media all and (min-width: 100px) and (max-width:376px){
+  .App {
+    width: auto;
+  }
+  .nav{
+    width: auto;
+    padding:16px 14px;
+    justify-content: space-between;
+  }
+  .firstBlock{
+    width: auto;
+    padding:16px 14px;
+  }
+  .secondBlock{
+    width: auto;
+    padding:16px 14px;
+  }
+  
+.noham{
+  display: none;
+}
+.ham{
+  display: block;
+}
+.gird{
+  display: grid;
+  gap:20px;
+  padding:20px;
+  grid-template-columns: repeat(1,1fr);
+}
+}
+
+
+
+
+
+
